@@ -1,0 +1,18 @@
+\documentclass{article}
+\usepackage{graphicx}
+\begin{document}
+
+\title{introduction to Latex}
+\author{Rajdeep kaur}
+\maketitle
+\begin{abstract}
+This is project management class.
+\end{abstract}
+\section{Introduction}
+This is the architectural blueprint for PIM DB
+\subsection{Javascript  Coding design}
+\subsubsection{Js Objects used in this application}
+
+\section{Conclusion}
+PIMDB
+\end{document}
