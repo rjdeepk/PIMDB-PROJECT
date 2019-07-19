@@ -1,0 +1,86 @@
+\documentclass[10 pm]{article}
+
+
+\title  {CSD4301 Section 1 - Assignment 3 - The PIM DB Use Cases and UML Agile Design Document }
+
+
+\begin{document}
+\maketitle
+\author{}
+
+\section * {Team members}
+
+\textsc{Jai rino lumi C0738738}\\
+\textsc{Rajdeep Kaur C0739309}\\
+\textsc{Sandeep Kaur Kanda C0740033}\\
+\textsc{Manpreet Kaur C0736236}\\
+\textsc{Beant Kaur C0731867}\\
+
+\section * {Use Case:}
+
+\section * {Assess Employee Performance}
+\subsection {GOAL}
+To enable the HR Manager to assess the performance of employees throughout the Project
+\subsection {Actors}
+Hr Managers who performs hiring,  employees performance assessment and termination
+\subsection {Scenario}
+
+\begin{enumerate}
+\item Step 1. The system shall provide the HR Manager with a UI PANEL that allows selection of an employee 
+and text area to type in feedback for the employee.
+\item Step 2. The system shall provide the HR Manager with the screen to view the previous performance rating history.
+\item Step 3. The system shall provide the candidate with a screen to view the performance rating given.
+\item Step 4. The system shall provide the HR Manager a confirmation email when the rating is accepted.
+\item Step 5. The system shall provide the candidate with a screen that allows to fill out the survey forms about the process.
+\end{enumerate}
+
+\subsection{Alternate Flows}
+\begin{enumerate}
+\item Step 1.  The system shall provide the candidate with a option to decline the rating given
+ and text area to type the reason for rejection.
+\item Step 2. The system shall schedule meeting with manager for discussion.
+\item Step 3. The use case ends.
+\end{enumerate}
+
+\section * {UML:}
+
+\section *{Web Application}
+\subsection{Data members}
+\begin{enumerate}
+\item Employeename String
+\item Ratinglevel String
+\item Date date
+\end{enumerate}
+
+\subsection{Methods}
+\begin{enumerate}
+\item SendEmail
+\item ViewRatingHistory
+\item FillFeedback
+\item Button AcceptRating
+\item Button DeclineRating
+\item ScheduleMeeting
+\end{enumerate}
+
+\section *{Database}
+\subsection{Data members}
+\begin{enumerate}
+\item Employeename String
+\item Managername String
+\item Ratinglevel String
+\item Feedback String
+\item Date date
+\end{enumerate}
+
+\subsection{Methods}
+\begin{enumerate}
+\item AddNewEmployee
+\item RemoveEmployee
+\item ViewRatingHistory
+\item UpdateEmployeeDetails
+\end{enumerate}
+
+
+\end{document}
+
+
